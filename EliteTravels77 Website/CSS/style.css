@@ -1,0 +1,735 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+/*sectiunea header,navbar*/
+
+.header-section {
+    background-color: rgb(0, 128, 255);
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 0px 15px;
+    background-color: rgb(0, 128, 255);
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.nav-iden {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-iden a {
+    display: flex;
+    align-items: center;
+}
+
+.nav-iden a img {
+    width: 40px;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+.nav-iden span {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.nav-menu a {
+    margin: 0;
+    padding: 10px 5px;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 15px;
+}
+
+.nav-menu a:hover {
+    background-color: rgb(255, 172, 0);
+    color: rgb(0, 0, 0);
+}
+
+.nav-info {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-info a {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 5px;
+}
+
+.nav-info i {
+    font-size: 30px;
+}
+
+.nav-info a:hover {
+    color: rgb(255, 172, 0);
+}
+
+.main-info-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 20vh;
+    left: 26vw;
+    background-color: rgba(231, 244, 255, 0.5);
+    width: 45%;
+    padding: 35px 25px;
+}
+
+.main-info-panel h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.main-info-panel p {
+    width: 55pc;
+    font-size: 21px;
+    text-align: center;
+}
+
+.panel-button {
+    margin-top: 15px;
+    width: 7.5vw;
+    padding: 8px 0;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    background-color: rgb(0, 128, 255);
+    color: white;
+    text-transform: uppercase;
+    font-size: medium;
+}
+
+.panel-button:hover {
+    background-color: rgb(255, 172, 0);
+    color: black;
+    border: 2px solid rgb(0, 128, 255);
+}
+
+/*sectiune main*/
+
+.main-section {
+    height: 70vh;
+    width: 100vw;
+    background: url(/Images/Plane1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.flights {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100vw;
+    height: 5vh;
+    background-color: aliceblue;
+    position: relative;
+    left: 10rem;
+}
+
+
+
+/*sectiunea optional items*/
+
+.optional-heading {
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+.figure {
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.figure img {
+    width: 50px;
+}
+
+.optional {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    cursor: default;
+}
+
+.optional-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    
+}
+
+.optional-items {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 25px;
+}
+
+
+.flexible-item,
+.mobilephone-item,
+.optional-newsletter,
+.optional-career p {
+    width: 15vw;
+}
+
+.flexible-item {
+    margin-right: 15px;
+}
+
+.mobilephone-item,
+.optional-newsletter {
+    margin-right: 25px;
+}
+
+.flexible-item h3 {
+    margin-bottom: 5px;
+}
+
+.mobilephone-item h3 {
+    margin-bottom: 5px;
+}
+
+.optional-newsletter h3 {
+    margin-bottom: 5px;
+}
+
+.optional-career h3 {
+    margin-bottom: 5px;
+}
+
+
+/*sectiunea cheap flights*/
+
+.cheap-flights {
+    display: flex;
+    flex-direction: column;
+}
+
+.cheap-flights-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.cheap-flights-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.cheap-flight {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    margin-right: 15px;
+    margin-top: 25px;
+}
+
+.flight-info {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    position: relative;
+    top: -15px;
+    border-radius:0 0 15px 15px ;
+    justify-content: space-between;
+    height: 10vh;
+    box-shadow: 0 10px 10px gray;
+}
+
+.info-destination {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.info-destination a {
+    color: #0600fd;
+    text-decoration: none;
+}
+
+.info-destination h2 {
+    font-size: larger;
+    font-weight: 900;
+    color: #0600fd;
+}
+
+.info-destination span {
+    font-size: large;
+    position: relative;
+    top: -1px;
+    left: 3px;
+}
+
+.info-price {
+    margin-top: 12px;
+    margin-right: 15px;
+}
+
+.info-price span {
+    font-size: medium;
+    font-weight: 700;
+    position: relative;
+    top: 1px;
+    left: 45px;
+    color: rgb(255, 153, 0);
+}
+
+.info-price h2 {
+    color: rgb(255, 153, 0); 
+    font-weight: bolder;
+}
+
+.flight-figure img {
+    width: 17vw;
+    height: 25vh;
+    border-radius: 15px;
+}
+
+
+/*sectiunea servicilor*/
+
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: default;
+}
+
+.services-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.services-heading h2 {
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.flight-service {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin-right: 10px;
+}
+
+.flight-service-info {
+    margin-left: 15px;
+    padding-right: 5px;
+}
+.flight-service-info p {
+    width: 15vw;
+    margin-top: 5px;
+}
+
+.flight-service-info button {
+    margin-top: 20px;
+    width: 7vw;
+    padding: 4px 0;
+    background-color: rgb(0, 128, 255);
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 2px;
+    position: relative;
+    left: 3.85vw;
+    cursor: pointer;
+}
+
+.hotel-service-info button {
+    margin-top: 20px;
+    width: 7vw;
+    padding: 4px 0;
+    background-color: rgb(0, 128, 255);
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 2px;
+    position: relative;
+    left: 3vw;
+    cursor: pointer;
+}
+
+.car-rental-service-info button {
+    margin-top: 20px;
+    width: 7vw;
+    padding: 4px 0;
+    background-color: rgb(0, 128, 255);
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 2px;
+    position: relative;
+    left: 2.5vw;
+    cursor: pointer;
+}
+
+.flight-service-info button:hover {
+    background-color: rgb(255, 172, 0);
+    color: black;
+    border: 2px solid rgb(0, 128, 255);
+}
+
+.hotel-service-info button:hover {
+    background-color: rgb(255, 172, 0);
+    color: black;
+    border: 2px solid rgb(0, 128, 255);
+}
+
+.car-rental-service-info button:hover {
+    background-color: rgb(255, 172, 0);
+    color: black;
+    border: 2px solid rgb(0, 128, 255);
+}
+
+.flight-service-info h3 {
+    margin-top: 15px;
+}
+
+.hotel-service {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+.hotel-service-info {
+    margin-left: 15px;
+    padding-right: 20px;
+}
+
+.hotel-service-info h3 {
+    margin-top: 15px;
+}
+
+.hotel-service-info p {
+    width: 13vw;
+    margin-top: 5px;
+}
+
+.car-rental-service {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin-left: 15px;
+}
+
+.car-rental-service-info {
+    margin-left: 15px;
+}
+
+.car-rental-service-info h3 {
+    margin-top: 15px;
+}
+
+.car-rental-service-info p {
+    width: 13vw;
+    margin-top: 5px;
+}
+
+.service-figure1 img {
+    width: 15vw;
+    border-radius: 5px 0 0 5px;
+    position: relative;
+    top: 3px;
+}
+
+.service-figure2 img {
+    width: 9.5vw;
+    border-radius: 5px 0 0 5px;
+    position: relative;
+    top: 3px;
+}
+
+.service-figure3 img {
+    width: 13.2vw;
+    border-radius: 5px 0 0 5px;
+    position: relative;
+    top: 3px;
+}
+
+/*sectiunea avantaje si beneficii*/
+
+.avantaje-beneficii-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    align-items: center;
+}
+
+.avantaje-beneficii-section h2 {
+    margin-bottom: 15px;
+}
+
+.avantaje-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.avantaje-item1 {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 0 5px 5px 0;
+    margin-right: 25px;
+    
+}
+
+.avantaje-item2 {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+.avantaje-info1 {
+    margin-left: 15px;
+}
+.avantaje-info1 h3 {
+    margin-top: 10px;
+    position: relative;
+    right: 40px;
+}
+
+.avantaje-info1 p {
+    width: 15vw;
+    position: relative;
+    right: 40px;
+    margin-top: 5px;
+}
+
+.avantaje-info2 {
+    margin-left: 15px;
+}
+.avantaje-info2 h3 {
+    margin-top: 10px;
+    position: relative;
+    right: 6.5vw;
+}
+
+.avantaje-info2 p {
+    width: 13vw;
+    position: relative;
+    right: 6.5vw;
+    margin-top: 5px;
+}
+
+
+.avantaje-figure1 {
+    background-image: url(/Images/online-check-in.jpeg);
+    width: 16vw;
+    height: 17.5vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 5px 0 0 5px;
+}
+
+.avantaje-figure2 {
+    background-image: url(/Images/low-cost-2.jpg);
+    width: 16vw;
+    height: 17.5vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 5px 0 0 5px;
+}
+
+.avantaje-figure3 {
+    background-image: url(/Images/Co2.jpg);
+    width: 16vw;
+    height: 17.5vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 5px 0 0 5px;
+}
+
+.avantaje-figure4 {
+    background-image: url(/Images/gift.jpg);
+    width: 16vw;
+    height: 17.5vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 5px 0 0 5px;
+}
+
+.avantaje-figure5 {
+    background-image: url(/Images/prority.jpg);
+    width: 16vw;
+    height: 17.5vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 5px 0 0 5px;
+}
+
+.avantaje-figure6 {
+    background-image: url(/Images/subscribe.jpg);
+    width: 16vw;
+    height: 17.5vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 5px 0 0 5px;
+}
+
+/*sectiunea footer*/
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+
+.copyright {
+    height: 5vh;
+    background-color: rgb(0, 128, 255);
+    color: white;
+    text-align: center;   
+}
+
+.copyright p {
+    font-size: 22px;
+    font-weight: 500;
+    position: relative;
+    top: 10px;
+}
+
+
+.testimonials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 15px;
+}
+
+.testimonials h2 {
+    font-size: 1.35em;
+    text-decoration: underline;
+}
+
+.testimonials ul li {
+    list-style-type: none;
+    line-height: 1.4;
+}
+
+.testimonials ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-newsletter {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.form-newsletter label {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: black;
+}
+
+.form-newsletter input {
+    margin-top: 2px;
+    padding: 5px 0px;
+    width: 20vw;
+    border-radius: 5px;
+    border: 2px solid rgb(0, 128, 255);
+}
+
+.newsletter button {
+    margin: 1rem 0;
+    width: 7.5vw;
+    padding: 8px 0;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    background-color: rgb(0, 128, 255);
+    color: white;
+    text-transform: uppercase;
+    font-size: medium;
+}
+
+.newsletter button:hover {
+    background-color: rgb(255, 172, 0);
+    color: black;
+    border: 2px solid rgb(0, 128, 255);
+}
+
+.social-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px
+}
+.social-links img {
+    width: 50px;
+    border-radius: 10px;
+    margin: 0 5px;
+}
+
+.social-payments {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.payments {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.payment-option {
+    display: flex;
+    flex-direction: row;
+}
+.payment-option img {
+    width: 50px;
+    height: 60px;
+    margin:  0 5px;
+}

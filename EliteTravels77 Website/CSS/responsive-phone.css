@@ -1,0 +1,412 @@
+@media (min-width:320px) and (max-width:640px) {
+
+    html{
+        font-size: 16px;
+    }
+
+    .navbar {
+        display: block;
+        width: 100%;
+        height: 100%;
+        padding: 10px 0;
+    }
+
+    .nav-iden{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        position: relative;
+        left: -20px;
+        font-size: 14px;
+        margin: 10px;
+    }
+
+    .nav-menu {
+        display: block;
+        font-size: 14px;
+        text-align: center;
+        margin-right: 25px;
+    }
+
+    .nav-menu a {
+        margin-top: 15px;
+    }
+
+    .nav-info{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: center;
+        position: relative;
+        left: -15px;
+        font-size: 14px;
+        margin-top: 15px;
+    }
+
+    main {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    .main-section{
+        display: flex;
+        width: 100%;
+        height: auto;
+        background-size: cover;
+    }
+
+    .main-info-panel{
+        display: flex;
+        width: 80%;
+        height: 70%;
+        position: relative;
+        top: -5px;
+        left: 12px;
+        align-items: center;
+    }
+
+    .main-info-panel h2 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .main-info-panel p {
+        width: 90%;
+        height: 100%;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .main-info-panel button {
+        width: 70%;
+    }
+
+    .optional {
+        display: flex;
+        width: 100%;
+        height: auto;
+    }
+
+    .optional-items {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .optional-heading  {
+        text-align: center;
+    }
+
+    .flexible-item,
+    .mobilephone-item,
+    .optional-newsletter,
+    .optional-career {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 18px;
+        width: 100%;
+        margin: 15px 25px;
+    }
+
+
+    .optional-career p {
+        width: 100%;
+    }
+
+    .cheap-flights-items {
+        display: flex;
+        flex-direction: column;
+        margin-left: 15px;
+    }
+
+    .flight-figure img {
+        width: 100%;        
+    }
+
+    .figure {
+        margin-top: 25px;
+    }
+
+    .services {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .services-items {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .flight-service,
+    .hotel-service,
+    .car-rental-service {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .flight-service-info,
+    .hotel-service-info,
+    .car-rental-service-info {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hotel-service {
+        display: flex;
+        position: relative;
+        right: 15px;
+    }
+
+    .car-rental-service {
+        display: flex;
+        position: relative;
+        right: 15px;
+    }
+
+    .service-figure1 img{
+        width: 100%;
+        height: auto;
+    }
+    .service-figure2 img{
+        width: 100%;
+        height: auto;
+    }
+    .service-figure3 img{
+        width: 100%;
+        height: auto;
+    }
+
+    .flight-service-info button {
+        margin: 10px 65px;
+    }
+    .hotel-service-info button {
+        margin: 10px 65px;
+    }
+    .car-rental-service-info button {
+        margin: 10px 65px;
+    }
+
+    .flight-service-info p {
+        width: 100%;
+        font-size: 18px;
+        margin-left: -8px;
+    }
+    .hotel-service-info p {
+        width: 100%;
+        font-size: 18px;
+    }
+    .car-rental-service-info p {
+        width: 100%;
+        font-size: 18px;
+        margin-left: -8px;
+    }
+
+    .flight-service-info h3 {
+        font-size: 1.5rem;
+    }
+    .hotel-service-info h3 {
+        font-size: 1.5rem;
+        margin-right: 10px;
+    }
+    .car-rental-service-info h3 {
+        font-size: 1.5rem;
+        margin-right: 25px;
+    }
+    
+    .flight-service-info button {
+        width: 50%;
+    }
+
+    .hotel-service-info button {
+        width: 50%;
+    }
+
+    .car-rental-service-info button {
+        width: 50%;
+    }
+
+   .avantaje-beneficii-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+   }
+
+   .avantaje-row {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+   }
+
+   .avantaje-item1,
+   .avantaje-item2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+   }
+
+  
+   .avantaje-info1,
+   .avantaje-info2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 30px;
+    margin: 15px 0;
+   }
+
+   .avantaje-info1 p {
+    width: 100%;
+    font-size: 20px;
+    margin-left: 10px;
+   }
+   .avantaje-info2 p {
+    width: 100%;
+    font-size: 20px;
+    margin-left: -5px;
+   }
+
+   .avantaje-info1 h3 {
+    font-size: 24px;
+    margin-left: 25px;
+   }
+   .avantaje-info2 h3 {
+    font-size: 24px;
+    margin-left: -5px;
+   }
+
+   .avantaje-figure1,
+   .avantaje-figure2,
+   .avantaje-figure3,
+   .avantaje-figure4,
+   .avantaje-figure5,
+   .avantaje-figure6 {
+    width: 70%;
+    display: flex;
+    position: relative;
+    left: 43px;
+    margin-top: 15px;
+   }
+
+   .avantaje-figure2,
+   .avantaje-figure4,
+   .avantaje-figure6 {
+    display: flex;
+    position: relative;
+    left: 70px;
+   }
+
+   .footer-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+   }
+
+   .testimonials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -45px;
+   }
+
+   .company-services,
+   .customer-services,
+   .flights-destinations,
+   .about-company{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+   }
+
+   .company-services h2 {
+    margin: 10px 0;
+   }
+   .customer-services h2 {
+    margin: 10px 0;
+   }
+   .flights-destinations h2 {
+    margin: 10px 0;
+   }
+   .about-company h2 {
+    margin: 10px 0;
+   }
+
+  .newsletter {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .form-newsletter input {
+    width: 100%;
+    margin: 5px 0;
+  }
+
+  .form-newsletter input::placeholder {
+    text-align: center;
+  }
+
+  .newsletter button {
+    width: 45%;
+  }
+
+  .social-payments {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: 5px 0;
+  }
+
+  .payments {
+    margin: 15px 0;
+  }
+  .social {
+    margin: 15px 0;
+  }
+
+  .payments h2 {
+    margin: 15px 0;
+    font-size: 1.75rem;
+
+  }
+  .social h2 {
+    margin: 10px 0;
+    font-size: 1.75rem;
+  }
+
+  .copyright {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 15px 0;
+  }
+
+  .copyright p {
+    margin-top: -15px;
+  }
+
+}
