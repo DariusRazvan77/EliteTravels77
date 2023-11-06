@@ -1,1 +1,1 @@
-Folder of the files is to big to upload it here.
+Folder of the images is to big to upload it here.
